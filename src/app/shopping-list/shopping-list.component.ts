@@ -5,7 +5,7 @@ import { Ingredient } from '../shared';
   templateUrl: './shopping-list.component.html'
 })
 export class ShoppingListComponent implements OnInit {
-  items: Ingredient[];
+  items: Ingredient[] = [];
   constructor() { }
 
   ngOnInit() {
