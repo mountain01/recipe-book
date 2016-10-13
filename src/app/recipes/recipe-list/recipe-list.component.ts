@@ -5,8 +5,7 @@ import { RecipeService } from '../recipe.service';
 
 @Component({
   selector: 'rb-recipe-list',
-  templateUrl: './recipe-list.component.html',
-  providers: [RecipeService]
+  templateUrl: './recipe-list.component.html'
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [];
